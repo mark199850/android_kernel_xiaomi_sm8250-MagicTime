@@ -1804,8 +1804,8 @@ static inline int task_on_rq_migrating(struct task_struct *p)
  * slice expiry etc.
  */
 
-#define WEIGHT_IDLEPRIO		3
-#define WMULT_IDLEPRIO		1431655765
+#define WEIGHT_IDLEPRIO		0
+#define WMULT_IDLEPRIO		1031655765
 
 extern const int		sched_prio_to_weight[40];
 extern const u32		sched_prio_to_wmult[40];
