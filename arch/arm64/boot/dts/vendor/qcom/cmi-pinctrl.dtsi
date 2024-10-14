@@ -102,7 +102,7 @@
 			config {
 				pins = "gpio153";
 				bias-disable; /* No PULL */
-				drive-strength = <16>; /* 16 MA */
+				drive-strength = <8>; /* 16 MA */
 				output-low;
 			};
 		};
@@ -116,7 +116,7 @@
 
 			config {
 				pins = "gpio153";
-				drive-strength = <16>; /* 16 MA */
+				drive-strength = <8>; /* 16 MA */
 				bias-disable;
 				output-low;
 			};
@@ -135,7 +135,7 @@
 			config {
 				pins = "gpio82";
 				bias-disable; /* No PULL */
-				drive-strength = <16>; /* 16 MA */
+				drive-strength = <8>; /* 16 MA */
 				output-low;
 			};
 		};
@@ -149,7 +149,7 @@
 
 			config {
 				pins = "gpio82";
-				drive-strength = <16>; /* 16 MA */
+				drive-strength = <8>; /* 16 MA */
 				bias-disable;
 				output-low;
 			};
