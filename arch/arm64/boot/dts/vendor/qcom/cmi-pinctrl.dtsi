@@ -8,7 +8,7 @@
 
 	config {
 		pins = "gpio12", "gpio50";
-		drive-strength = <8>;	/* 8 mA */
+		drive-strength = <4>;	/* 8 mA */
 		bias-disable = <0>;   /* no pull */
 	};
 };
